@@ -1,4 +1,5 @@
 
+
 Object.defineProperty(exports, "__esModule", { value: true });
 
 const {
@@ -6,8 +7,7 @@ const {
   objectEnumValues,
   makeStrictEnum,
   Public,
-  getRuntime,
-  skip
+  getRuntime
 } = require('./runtime/index-browser.js')
 
 
