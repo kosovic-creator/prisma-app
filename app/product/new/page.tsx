@@ -6,7 +6,7 @@ import { createProduct } from '@/lib/product.actions';
 import { useRouter } from 'next/navigation';
 // import { z } from 'zod';
 // import productSchema from '@/types';
-export const dynamic = 'force-dynamic'
+
 
 
 
