@@ -1,5 +1,6 @@
 import prisma from '@/lib/prisma'
 import Product from './product/page';
+export const dynamic = 'force-dynamic';
 
 export default async function Home() {
   const products = await prisma.product.findMany();
