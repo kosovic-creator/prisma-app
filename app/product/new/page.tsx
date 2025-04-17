@@ -7,7 +7,7 @@ import { useRouter } from 'next/navigation';
 // import { z } from 'zod';
 // import productSchema from '@/types';
 export const dynamic = 'force-dynamic'
-export const fetchCache = 'force-no-store';
+
 
 
 export default function NewProductPage() {
